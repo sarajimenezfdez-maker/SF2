@@ -17,44 +17,28 @@ enableGitInfo = true
 [markup.tableOfContents]
   startLevel = 1
 
-
 [menu]
 [[menu.home]]
-  name = "Documentation"
+  name = "el jardín"
   pageRef = "/docs/example/"
   weight = 1
 
 [[menu.home]]
   pageRef = "/docs/example/"
   weight = 10
-  parent = "Documentation"
+  parent = "el jardín"
 
 [[menu.home]]
   name = "Shortcodes"
   pageRef = "/docs/shortcodes/badges/"
   weight = 20
-  parent = "Documentation"
+  parent = "el jardín"
 
 [[menu.home]]
-  name = "Showcases"
-  pageRef = "/showcases/"
+  name = "sobre mí"
+  pageRef = "/sobremi/"
   weight = 2
 
-[[menu.home]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book/"
-  weight = 3
-
-# [[menu.before]]
-[[menu.after]]
-  name = "Github"
-  url = "https://github.com/alex-shpak/hugo-book/"
-  weight = 10
-
-[[menu.after]]
-  name = "Hugo Themes"
-  url = "https://themes.gohugo.io/themes/hugo-book/"
-  weight = 20
 
 [params]
   # (Optional, default light) Sets color theme: light, dark or auto.
@@ -74,10 +58,6 @@ enableGitInfo = true
   # If the logo is /static/logo.png then the path would be logo.png
   # BookLogo = 'logo.png'
 
-  # (Optional, default docs) Specify root page to render child pages as menu.
-  # Page is resoled by .GetPage function: https://gohugo.io/functions/getpage/
-  # For backward compatibility you can set '*' to render all sections to menu. Acts same as '/'
-  BookSection = 'docs'
 
   # Here for backwar compatibility, not required.
   BookRepo = 'https://github.com/alex-shpak/hugo-book/'
