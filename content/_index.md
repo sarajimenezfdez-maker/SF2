@@ -4,12 +4,8 @@ layout: landing
 ---
 
 <div class="book-hero">
-
 # por una redistribución política de lo sensible {anchor=false}
 en construcción permanente
-
-{{<button href="/docs/example">}}Explorar{{</button>}}
-
 </div>
 
 <span style="font-size:1.4em;"> Bienvenidx a mi jardín digital.
