@@ -1,0 +1,14 @@
+.columns {
+  display: flex;
+  gap: 2em;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+.card {
+  background: #f6f6f6;
+  border-radius: 8px;
+  padding: 1em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  flex: 1 1 250px;
+  margin: 0.5em;
+}
